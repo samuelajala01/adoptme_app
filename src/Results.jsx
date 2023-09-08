@@ -9,6 +9,7 @@ const Results = ({ pets }) => {
         pets.map((pet) => (
           <Pet
             name={pet.name}
+            id={pet.id}
             animal={pet.animal}
             images={pet.images}
             location={`${pet.city}, ${pet.state}`}
